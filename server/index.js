@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({limit: "30mb", extended: true}));
 app.use(cors());
 
 app.use('/posts', postRoutes);
-//localhost:5000/posts
+//http://localhost:5000/posts
 
 const username = "pratikwadke"
 const password = "pratik02"
